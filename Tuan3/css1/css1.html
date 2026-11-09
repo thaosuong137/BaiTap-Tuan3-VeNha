@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Heroes of JavaScript and HTML</title>	
+    <style>	
+#root {
+    width: 960px;
+    margin: 0 auto;
+    padding: 40px 45px 110px;
+    background-color: #cccccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.header {
+    text-align: center;
+    font-size: 32px;
+    margin: 0 0 25px;
+}
+
+#root > .description {
+    background-color: #808080;
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 25px 50px;
+    margin: 0 0 50px;
+    color: black;
+    font-size: 16px;
+}
+
+.remark {
+    text-align: center;
+    margin: 0 0 35px;
+}
+
+.heroes-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 0;
+}
+
+.hero-item {
+    display: inline-block;
+    width: 23%;
+    margin: 0 1%;
+    vertical-align: top;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.hero-item h2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 18px;
+    white-space: nowrap;
+}
+
+.hero-item .description {
+    position: relative;
+    z-index: 2;
+    height: 235px;
+    margin: 0;
+    padding: 12px;
+    background-color: rgba(100, 100, 100, 0.8);
+    border: 3px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-align: justify;
+    overflow: hidden;
+}
+
+.hero-item img {
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: -80px;
+}
+	
+	</style>
+</head>
+
+<body>
+    <div id="root">
+        <h1 class="header">
+			<i class="fas fa-address-card"></i>
+			Heroes of JavaScript and HTML</h1>
+			
+        <p class="description">
+			<i class="fab fa-android"></i>
+            <strong>Heroes of JavaScript and HTML</strong> is a "Heroes of Might and Magic"-like game, but for code nerds.
+            Each hero has its unique coding abilities and based on them he can develop software applications.
+        </p>
+        <div class="container">
+            <p class="remark">Currently the game has only four hero types:</p>
+            <ul class="heroes-list">
+                <li class="hero-item">
+                    <h2>Front-end Developer</h2>
+                    <p class="description">
+                        Being the ultra masters of JavaScript, the order of the <strong>Front-enders</strong> is known to
+                        create user interfaces, that fill the users with absolute pleasure
+                    </p>
+                    <img class="animated infinite bounce delay-2s" src="imgs/fe.png" alt="">
+                </li>
+                <li class="hero-item">
+                    <h2>Mobile Developer</h2>
+                    <p class="description">
+                        The movement of the <strong>Mobile developers</strong> is brand new, yet in their short time they
+                        already manage to amaze the peoples of the worlds and beyond with create applications.
+                    </p>
+                    <img src="imgs/mobile.jpg" alt="">
+                </li>
+                <li class="hero-item">
+                    <h2>Web Developer</h2>
+                    <p class="description">
+                        The sect of the <strong>Web developers</strong> is the oldest there is. They prefer the old ways and rarely move to modern stuff. The Old Religion gives them power of small gods. 
+                    </p>
+                    <img src="imgs/web.jpg" alt="">
+                </li>
+                <li class="hero-item">
+                    <h2>QA Engineer</h2>
+                    <p class="description">
+                        The <strong>QAs</strong> are the desiders of fates! They always have the final word, and all gods and mortals are bound to obey them.
+                    </p>
+                    <img src="imgs/qa.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

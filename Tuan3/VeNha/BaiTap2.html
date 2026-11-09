@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 2 - CSS cơ bản</title>
+
+    <style>
+        .cau2a {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 30px;
+}   
+        .cau2b {
+             color: red;
+             text-align: right;
+             font-style: italic;
+                border: 2px dotted yellow;
+                border-radius: 10px;
+                background-color: gray;
+                font-size: 15px;
+                opacity: 0.5;
+                padding: 15px;
+}
+       
+.cau2c {
+color: #A7DD3C;
+background: #FFFFFF;
+text-shadow: 2px 0 0px #800040, 3px 2px 0px rgba(77,0,38,0.5), 3px 0 3px #FF002B, 5px 0 3px #800015, 6px 2px 3px rgba(77,0,13,0.5), 6px 0 9px #FF5500, 8px 0 9px #802A00, 9px 2px 9px rgba(77,25,0,0.5), 9px 0 18px #FFD500, 11px 0 18px #806A00, 12px 2px 18px rgba(77,66,0,0.5), 12px 0 30px #D4FF00, 14px 0 30px #6A8000, 15px 2px 30px rgba(64,77,0,0.5), 15px 0 45px #80FF00, 17px 0 45px #408000, 17px 2px 45px rgba(38,77,0,0.5);
+color: #A7DD3C;
+background: #FFFFFF;
+text-decoration: none !important;
+}
+.cau2d {
+    width: 100%;
+    height: 300px;
+
+    background-image: url("https://ueh.edu.vn/schools/college/images/logo/bit-header-logo.png");
+    background-size: 30px;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+.cau2e p {
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    text-shadow: none;
+    background: none;
+    box-shadow: none;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.overflow-hidden {
+    width: 100px;
+    height: 50px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.text-ellipsis {
+    width: 100px;
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border: 1px solid black;
+}
+.text-nowrap {
+    width: 100px;
+    height: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+    </style>
+</head>
+<body>
+        <p class="cau2a">Đại học UEH</p>
+        <p class="cau2b">Khoa CNTTD</p>
+        <a class="cau2c" href="https://bit.ueh.edu.vn/" target="_blank"> BIT-UEH
+        <div class="cau2d"></div>
+        
+<div class="cau2e">
+
+    <p class="overflow-hidden">
+        Nhu cầu xã hội Ngành Thương mại điện tử (TMĐT)
+        tại Việt Nam hiện nay đang có những bước tăng trưởng
+        mạnh mẽ và ngày càng đóng góp nhiều hơn cho sự phát
+        triển kinh tế xã hội của đất nước. Thị trường TMĐT
+        Việt Nam đã trở nên sôi động hơn khi có nhiều
+    </p>
+
+    <p class="text-ellipsis">
+        Nhu cầu xã hội Ngành Thương mại điện tử (TMĐT)
+        tại Việt Nam hiện nay đang có những bước tăng trưởng
+        mạnh mẽ và ngày càng đóng góp nhiều hơn cho sự phát
+        triển kinh tế xã hội của đất nước. Thị trường TMĐT
+        Việt Nam đã trở nên sôi động hơn khi có nhiều
+    </p>
+
+    <p class="text-nowrap">
+        Nhu cầu xã hội Ngành Thương mại điện tử (TMĐT)
+        tại Việt Nam hiện nay đang có những bước tăng trưởng
+        mạnh mẽ và ngày càng đóng góp nhiều hơn cho sự phát
+        triển kinh tế xã hội của đất nước. Thị trường TMĐT
+        Việt Nam đã trở nên sôi động hơn khi có nhiều
+    </p>
+
+</div>
+</a>
+</body>
+</html>

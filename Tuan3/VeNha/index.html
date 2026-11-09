@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách bài tập tuần 3</title>
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f8;
+            margin: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #113b42;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            margin: 0 0 10px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .profile {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .profile img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .social a {
+            color: #087e8b;
+            margin: 0 10px;
+            font-size: 22px;
+            text-decoration: none;
+        }
+
+        .exercise-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .exercise {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #333;
+            box-shadow: 0 2px 8px #ddd;
+        }
+
+        .exercise:hover {
+            background-color: #e2f4f5;
+        }
+
+        .exercise h3 {
+            margin: 0 0 10px;
+            color: #087e8b;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #777;
+        }
+
+        @media (max-width: 600px) {
+            .exercise-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>BÀI TẬP CÁ NHÂN VỀ NHÀ TUẦN 3</h1>
+        <p>Môn: Phát triển ứng dụng TMĐT </p>
+    </header>
+
+    <div class="container">
+
+        <section class="profile">
+            <h2>Đặng Thị Thảo Sương</h2>
+            <p>MSSV: 31241023887</p>
+            <p> Đại học Kinh tế TP.HCM</p>
+
+            <div class="social">
+                <a href="https://github.com/" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </section>
+
+        <h2>Danh sách bài tập</h2>
+
+        <div class="exercise-list">
+
+            <a href="BaiTap2.html" class="exercise">
+                <h3>Bài tập 2</h3>
+                <p>Định dạng văn bản bằng CSS</p>
+            </a>
+
+            <a href="BaiTap4.html" class="exercise">
+                <h3>Bài tập 4</h3>
+                <p>Thiết kế thanh menu</p>
+            </a>
+
+            <a href="BaiTap5.html" class="exercise">
+                <h3>Bài tập 5</h3>
+                <p>Best Shared Hosting</p>
+            </a>
+
+            <a href="BaiTap6.html" class="exercise">
+                <h3>Bài tập 6</h3>
+                <p>MY PORTFOLIO</p>
+            </a>
+
+            <a href="BaiTap7.html" class="exercise">
+                <h3>Bài tập 7</h3>
+                <p>CSS Layout</p>
+            </a>
+
+            <a href="../css1/css1.html" class="exercise">
+                <h3>Bài tập 8</h3>
+                <p>Heroes of JavaScript and HTML</p>
+            </a>
+        </div>
+    </div>
+    <footer>
+        <p> Bài tập cá nhân tuần 3 </p>
+    </footer>
+</body>
+</html>
